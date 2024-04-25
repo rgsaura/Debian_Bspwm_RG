@@ -39,13 +39,15 @@ bspc config single_monocle false
 bspc config focus_follows_pointer true
 
 # RESOLUCION ARANDR
-
+xrandr --output Virtual-1 --mode 2560x1600 
 
 # WALLPAPER
-feh --bg-fill ~/Wallpaper/a.png
+feh --bg-fill ~/Wallpaper/Fondo_RG.png
 
 # POLYBAR
-~/.config/polybar/launch.sh
+~/.config/polybar/launch.sh --docky &
+#~/.config/polybar/launch.sh --docky &
+#~/.config/polybar/launch.sh --colorblocks &
 
 # CUSTOM
 bspc config focus_follows_pointer true

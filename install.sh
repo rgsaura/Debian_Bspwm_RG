@@ -75,11 +75,10 @@ sudo cp -v $ruta/fonts/HNF/* /usr/local/share/fonts/
 
 sudo cp -v $ruta/Config/polybar/fonts/* /usr/share/fonts/truetype/
 
-# Instalando Wallpaper de S4vitar
+# Instalando Wallpaper
 
 mkdir ~/Wallpaper
 cp -v $ruta/Wallpaper/* ~/Wallpaper
-mkdir ~/ScreenShots
 
 # Copiando Archivos de Configuración
 
@@ -94,11 +93,6 @@ cp -v $ruta/.zshrc ~/.zshrc
 
 cp -v $ruta/.p10k.zsh ~/.p10k.zsh
 sudo cp -v $ruta/.p10k.zsh-root /root/.p10k.zsh
-
-# Script
-
-sudo cp -v $ruta/scripts/whichSystem.py /usr/local/bin/
-sudo cp -v $ruta/scripts/screenshot /usr/local/bin/
 
 # Plugins ZSH
 
@@ -119,8 +113,6 @@ chmod +x ~/.config/bin/ethernet_status.sh
 chmod +x ~/.config/bin/htb_status.sh
 chmod +x ~/.config/bin/htb_target.sh
 chmod +x ~/.config/polybar/launch.sh
-sudo chmod +x /usr/local/bin/whichSystem.py
-sudo chmod +x /usr/local/bin/screenshot
 
 # Configuramos el Tema de Rofi
 
