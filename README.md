@@ -7,9 +7,9 @@ Primero que nada actualiza el sistema antes de usar este escript con ```sudo apt
 1.- Uso del Script 
 
 ```
-git clone https://github.com/ZLCube/KaliBspwm.git
+git clone [https://github.com/ZLCube/KaliBspwm.git](https://github.com/rgsaura/KaliBspwm_RG)
 
-cd KaliBspwm
+cd KaliBspwm_RG
 
 chmod +x install.sh
 
