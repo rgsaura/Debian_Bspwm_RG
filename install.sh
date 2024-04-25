@@ -125,6 +125,21 @@ cd $ruta
 sudo cp -R $ruta/Components/i3lock-color-everblush/i3lock-everblush /usr/bin
 xfconf-query --create -c xfce4-session -p /general/LockCommand -t string -s "i3lock-everblush"
 
+# Instalando lock-screnn SDDM with theme https://github.com/catppuccin/sddm
+apt install sddm
+systemctl start sddm
+systemctl enable sddm
+apt install --no-install-recommends qml-module-qtquick-layouts qml-module-qtquick-controls2 libqt6svg6
+
+wget https://github.com/catppuccin/sddm/releases/download/v1.0.0/catppuccin-mocha.zip
+sudo unzip catppuccin-mocha.zip -d /usr/share/sddm/themes/
+rm catppuccin-mocha.zip
+
+sudo touch /etc/sddm.conf
+echo "[Theme]" | sudo tee -a /etc/sddm.conf
+echo "Current=catppuccin-mocha" | sudo tee -a /etc/sddm.conf
+
+
 # Removiendo Repositorio
 
 rm -rf ~/github
