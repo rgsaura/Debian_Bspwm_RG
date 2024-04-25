@@ -1,4 +1,4 @@
-# DebianBspwm - @rgsaura
+# KaliBspwm
 
 BSPWM para Kali personalizado.
 
