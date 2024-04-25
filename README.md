@@ -1,5 +1,7 @@
 # KaliBspwm
 
+⚠️ WORK IN PROGRESS...
+
 BSPWM para Kali personalizado.
 
 Primero que nada actualiza el sistema antes de usar este escript con ```sudo apt update``` y ```sudo apt upgrade```
@@ -31,6 +33,9 @@ Esta no esta incluida en el scripts
 #=========================================================================#
 
 ![Screenshot 2024-04-25 at 19 40 29](https://github.com/rgsaura/KaliBspwm_RG/assets/16281075/9df3ed30-bd05-492c-9a7f-548cc0550670)
+![Screenshot 2024-04-25 at 20 55 20](https://github.com/rgsaura/KaliBspwm_RG/assets/16281075/94d43535-43b7-4102-9f7a-dabb8ce2a325)
+![Screenshot 2024-04-25 at 20 55 33](https://github.com/rgsaura/KaliBspwm_RG/assets/16281075/36aca5ee-a486-4b20-908d-d3817e8408dd)
+
 
 #=========================================================================#
 
