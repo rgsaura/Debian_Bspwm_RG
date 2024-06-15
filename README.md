@@ -31,7 +31,7 @@ Esta no esta incluida en el scripts
 4.- En caso de unicamente requerir los dotfiles recuerda que los componentes basicos son bspwm, picom, pollybar, sxhkd, hacknerf fonts
 
 #=========================================================================#
-
+![Kali-linux-Desktop](https://github.com/rgsaura/Debian_Bspwm_RG/assets/16281075/c7201bad-98d4-4728-bb71-94a5fd5ce2b6)
 ![Screenshot 2024-04-25 at 19 40 29](https://github.com/rgsaura/KaliBspwm_RG/assets/16281075/9df3ed30-bd05-492c-9a7f-548cc0550670)
 ![Screenshot 2024-04-25 at 20 55 20](https://github.com/rgsaura/KaliBspwm_RG/assets/16281075/94d43535-43b7-4102-9f7a-dabb8ce2a325)
 ![Screenshot 2024-04-25 at 20 55 33](https://github.com/rgsaura/KaliBspwm_RG/assets/16281075/36aca5ee-a486-4b20-908d-d3817e8408dd)
