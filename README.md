@@ -1,6 +1,6 @@
 # KaliBspwm
 
-⚠️ WORK IN PROGRESS...
+⚠️ WORK IN PROGRESS... (not ready for deployment)
 
 BSPWM para Kali personalizado.
 
